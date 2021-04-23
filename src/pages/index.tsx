@@ -12,6 +12,7 @@ type Episode = {
   id: string;
   title: string;
   thumbnail: string;
+  description: string;
   members: string;
   duration: string;
   durationAsString: string;
@@ -82,7 +83,6 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
               <th></th>
             </tr>
           </thead>
-      description: episode.description,
           <tbody>
             {allEpisodes.map((episode) => {
               return (
