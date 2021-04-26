@@ -25,7 +25,7 @@
   footer {
     align-self: stretch; //ocupar a largura toda
 
-    &.empty {
+    &.empty .progress{
       //condicional
       opacity: 0.5;
     }
